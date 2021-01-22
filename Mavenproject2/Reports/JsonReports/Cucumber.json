@@ -1,0 +1,151 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-22T10:33:14.641Z",
+        "line": 10,
+        "name": "login to facebook",
+        "description": "",
+        "id": "verification-of-login-to-facebook;login-to-facebook;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6540677100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user in login page",
+            "match": {
+              "location": "com.stepdefinitions.Fb_login.user_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 281886300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "i enter dineshkumar1712@gmail.com and FACEBOOK",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dineshkumar1712@gmail.com",
+                  "offset": 8
+                },
+                {
+                  "val": "FACEBOOK",
+                  "offset": 38
+                }
+              ],
+              "location": "com.stepdefinitions.Fb_login.i_enter_user_and_pass(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 109704600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i click",
+            "match": {
+              "location": "com.stepdefinitions.Fb_login.i_click()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5323383300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "login to homepage",
+            "match": {
+              "location": "com.stepdefinitions.Fb_login.login_to_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-22T10:33:27.047Z",
+        "line": 11,
+        "name": "login to facebook",
+        "description": "",
+        "id": "verification-of-login-to-facebook;login-to-facebook;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7165280700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user in login page",
+            "match": {
+              "location": "com.stepdefinitions.Fb_login.user_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 206448900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "i enter user and User123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user",
+                  "offset": 8
+                },
+                {
+                  "val": "User123",
+                  "offset": 17
+                }
+              ],
+              "location": "com.stepdefinitions.Fb_login.i_enter_user_and_pass(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 99734800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i click",
+            "match": {
+              "location": "com.stepdefinitions.Fb_login.i_click()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20136700700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "login to homepage",
+            "match": {
+              "location": "com.stepdefinitions.Fb_login.login_to_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "verification of login to facebook",
+    "description": "",
+    "id": "verification-of-login-to-facebook",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/Feature/test.feature",
+    "tags": []
+  }
+]
